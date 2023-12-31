@@ -1,0 +1,169 @@
+body{
+    
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+    font-weight:bold;
+    font-size: medium;
+}
+h1{
+    font-size: 5.625rem; /* 1 em= 16px= 100%, so if I need 90px then 90/16 = 5.625em or 562.5%
+                         rem=> is the same func as em but compares with root value(16px) but in case of em or % 
+                         the value of size if specified in body will add up the value specified and we don't get desired size,
+                         but rem works fine*/
+                         
+    margin: 50px auto 0 auto;
+    color: #66BFBF;
+    
+    
+    font-family: 'Sacramento', cursive;
+}
+
+h2{
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+h3{
+    color: #11999E;
+}
+
+
+
+hr{
+    border: dotted #EAF6F6 ;
+    border-bottom: none;
+    width: 4%;
+    border-width: 6px;
+    margin: 100px auto 100px auto;
+}
+.Top{
+    background-color: #eaf6f6;
+    position: relative;
+    padding-top: 100px;
+    
+}
+a{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+}
+
+.middle-container{
+    line-height: 2;
+    margin: 100px 0;
+    
+}
+.pro{
+    text-decoration: underline;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+    
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+    
+}
+
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    
+    line-height: 2;
+}
+
+.DevPic{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.QuizPic{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+
+}
+
+.Sk-1{
+    color: #11999E;
+}
+
+.bottom-container{
+    background-color:#66BFBF ;
+    width: 100%;
+    padding: 50px 0px 50px;
+    
+}
+
+.Intro{
+    width: 30%;
+    margin: auto;
+}
+
+.ConcText{
+    width: 40%;
+    margin: 40px auto 60px auto;
+}
+.btn {
+    background: #11CDD4;
+    background-image: -webkit-linear-gradient(top, #11CDD4, #1199E9);
+    background-image: -moz-linear-gradient(top, #11CDD4, #1199E9);
+    background-image: -ms-linear-gradient(top, #11CDD4, #1199E9);
+    background-image: -o-linear-gradient(top, #11CDD4, #1199E9);
+    background-image: -webkit-gradient(to bottom, #11CDD4, #1199E9);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 10px 20px 10px 20px;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .btn:hover {
+    border: solid #337FED 1px;
+    background: #30E3CB;
+    background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -webkit-gradient(to bottom, #30E3CB, #2BC4AD);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+
+ .lower{
+    margin-block-start: 1em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px
+ }
